@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+	margin: 0px;
+	padding: 0px;
+	font-family: "?????? Pro", "Hiragino Maru Gothic Pro","?????? Pro", "Hiragino Kaku Gothic Pro", "????", Meiryo, Osaka, "?? ?????", "MS PGothic", sans-serif;	/*??????*/
+	font-size: 14px;
+	line-height: 2;	
+}
+a {
+    color: blue;
+}
+
+.ch-color {
+    color: red;
+    font-size: 1.5em;
+}
+.viewpadding {
+    padding: 10px;
+}
+
+
+.bg-image {
+    /*background-image: url("../images/back1.png");*/
+    background-color: #292a36;
+    background-repeat: no-repeat;
+    background-position: center center;   
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.bg-mask {
+    background: rgba(255,255,255,1);
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-block-end: 0;
+}
+#container {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.toptitle h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    margin-block-start: 15px;
+    border-bottom: solid 3px #cce4ff;
+    border-bottom-left-radius: 50%;
+    position: relative;
+    line-height: 1;
+}
+.toptitle h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #5472cd;
+    bottom: -3px;
+    width: 20%;
+  }
+.toptitle h2 {
+    text-align: right;
+    margin-right: 150px;
+    margin-block-start: 20px;
+    font-size: 30px;
+}
+
+.box{
+    position: relative;
+    background: linear-gradient(
+      -45deg,
+      #cce4ff 25%, #5472cd 25%,
+      #5472cd 50%, #cce4ff 50%,
+      #cce4ff 75%, #5472cd 75%,
+      #d8e0ff
+    );
+    background-size: 8px 8px;
+    padding: 8px;
+}
+    .box_inner{
+        background: #f3f7fc;
+        padding: .5em;
+    }
+    .box_inner p{
+        color: black;
+        margin: 0 0 .5em;
+        font-size: 18px;
+    }
+    .box_inner h2{
+        color: #5472cd;
+        margin: 0 0 .5em;
+
+      }
+
+
+.main h1 {
+    border-bottom: solid 3px #cce4ff;
+    border-bottom-left-radius: 50%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .main h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 4px #5472cd;
+    bottom: -3px;
+    width: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+.center-box {
+    text-align: center;
+}
+    .center-box img:hover {
+        opacity: 0.5;
+    }
+
+
+.flag {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+} 
+    .flag img {
+        margin: 20px;
+        height: 80px;
+        width: 110px;
+    }
+
+.left-box {
+    float: left;
+    width: 45%;
+    margin-left:3%;
+}
+.right-box {
+    margin-left: 4%;
+    margin-right:3%;
+    float: left;
+    width: 45%;
+}
+.contena {
+    margin-top:100px;
+}
+.contena {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: black; 
+    background: #f3f7fc;
+    border: solid 2px #6091d3; 
+    border-radius: 10px; 
+}
+
+
+.top-box {
+    width: 100%;
+    height: 70px;
+}
+.picture-box {
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-top: 5px;
+} 
+.name-box {
+    float: left;
+    width: 60%;
+}
+.name-box p {
+    font-size: 17px;
+}
+.picture-box img {
+    width: 115px;
+    height: 130px;
+}
+.bottom-box {
+    margin-top:30px;
+    text-align: center;
+}
+    .bottom-box p {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+#page_top{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f139';
+  font-size: 50px;
+  color: #3fefee;
+}
+.secret {
+    color: white;
+}
+.footer {
+
+    border-top-color: black;
+    background-color: #661122;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-inner {
+    height: 150px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    text-align: center;
+}
+.footer-inner p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.footer-inner h2 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer-inner a {
+    color: aqua;
+}
+

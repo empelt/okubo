@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>waseda</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="start">
+        <img src="images/eng_load.png" alt="">
+    </div>
+    <script type="text/javascript">
+    $(function() {
+      setTimeout(function(){
+        $('.start img').fadeIn(1600);
+      },500);
+      setTimeout(function(){
+        $('.start').fadeOut(500);
+      },2500);
+    });
+    </script>
+
+    <div class="menubar">
+        <p class="logo"><img src="images/logo1.png"></p>
+        <nav id="tab">
+            <ul>
+                <li><a href="../index.html" class="lang-bt">Japanese</a></li>
+                <li><a href="home.html" target="subframe" class="other">toppage</a></li>
+                <li><a href="ryo.html" target="subframe" class="other">ryo</a></li>
+                <li><a href="club.html" target="subframe" class="other">club</a></li>
+                <li><a href="class.html" target="subframe" class="other">class</a></li>
+                <li><a href="qanda.html" target="subframe" class="other">questions</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <iframe src="home.html" frameborder="0" name="subframe"></iframe>
+
+</body>
+</html>

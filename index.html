@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>早稲田大学本庄高等学院 寮紹介サイト</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="start">
+        <img src="images/load.png" alt="">
+    </div>
+    <script type="text/javascript">
+    $(function() {
+      setTimeout(function(){
+        $('.start img').fadeIn(1600);
+      },500);
+      setTimeout(function(){
+        $('.start').fadeOut(500);
+      },2500);
+    });
+    </script>
+
+    <div class="menubar">
+        <p class="logo"><img src="images/logo1.png"></p>
+        <nav id="tab">
+            <ul>
+                <li><a href="english_page/index.html" class="lang-bt">English</a></li>
+                <li><a href="home.html" target="subframe" class="other">トップページ</a></li>
+                <li><a href="ryo.html" target="subframe" class="other">寮について</a></li>
+                <li><a href="club.html" target="subframe" class="other">部活について</a></li>
+                <li><a href="class.html" target="subframe" class="other">授業について</a></li>
+                <li><a href="qanda.html" target="subframe" class="other">よくある質問</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <iframe src="home.html" frameborder="0" name="subframe"></iframe>
+
+</body>
+</html>

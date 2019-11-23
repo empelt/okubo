@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+	padding: 0px;
+    background-color: #eee;
+    font-family:"ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+}
+
+ul {list-style-type: none;}
+
+.start {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9000;
+}
+
+    .start img {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 9999;
+        width: 100%;
+    }
+
+.menubar {
+    width: 30%;
+    height: 100%;
+    max-width: 308px;
+    max-height: 700px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: black; 
+    -webkit-transition: 0.5s; 
+    transition: 0.5s; 
+}
+
+    a:hover {
+        color: white !important; 
+        text-decoration: none; 
+    }
+
+
+#tab ul{
+    display: contents;
+}
+#tab li {
+    margin:0;
+    text-align: center; 
+}
+
+
+
+
+.other {
+    background-color: #eee;
+    border-bottom: 0.3px solid black;
+    display: block;
+    text-decoration: none;
+    padding: 17px 0px; 
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+    font-family: "Courier";
+}
+   
+    .other:hover {
+        color: white; 
+        background: #661122;
+    }
+
+.lang-bt {
+    color: white;
+    border: 0.3px solid black; 
+    display: block;
+    text-decoration: none;
+    padding: 15px 5px;
+    background-color: #9e9a9b;
+    border-left: 0;
+    font-family: "Courier";
+    border-right: 0;
+}
+    .lang-bt:hover {
+        color: white;
+        background: #661122; 
+    }
+
+
+
+.logo {
+    text-align: center;
+    margin: 0;
+}
+.logo img {
+    margin:0;
+    text-align: center;
+    padding: 0px 0px; 
+    width: 90%;
+    height: auto;
+}
